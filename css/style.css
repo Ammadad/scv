@@ -1,0 +1,315 @@
+body {
+    background-color: var(--background);
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 1.8;
+    box-sizing: border-box;
+    color: var(--text);
+}
+
+:root {
+    --background: #05595B;
+    --text: #F5F5F5;
+    --scenebg: #062C30;
+    --heading: #E2D784;
+}
+
+/* Scene starts here. */
+header {
+    text-align: center;
+    width: 80vw;
+    height: 800px;
+    margin: auto;
+}
+
+.scene {
+    background-color: var(--scenebg);
+    height: 600px;
+    width: 600px;
+    border-radius: 100%;
+    position: relative;
+    margin: auto;
+}
+
+h2 {
+    color: var(--heading);
+}
+
+.hills img {
+    height: 230px;
+}
+
+.hills {
+    position: absolute;
+    bottom: 130px;
+    left: 60px;
+}
+
+.cloud1 img {
+    height: 150px;
+}
+
+.cloud1 {
+    position: absolute;
+    left: 10px;
+}
+
+.cloud2 img {
+    height: 120px;
+}
+
+.cloud2 {
+    position: absolute;
+    right: 10px;
+    top: 50px;
+}
+
+/* Scene ends here. */
+.intro {
+    width: 830px;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+.intro img {
+    float: left;
+    margin: 40px 30px;
+    margin-left: 1px;
+    border: 3px solid var(--scenebg);
+    border-radius: 100%;
+}
+
+.intro p {
+    width: 820px;
+    padding: 85px 0px 0px 0px;
+}
+
+.hobbies {
+    width: 600px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+.skills {
+    text-align: center;
+}
+
+table {
+    width: 700px;
+    height: 400px;
+    margin: 0 auto 0;
+}
+
+table,
+th,
+td {
+    border: 2px solid var(--scenebg);
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th {
+    background-color: var(--scenebg);
+    color: var(--heading);
+}
+
+footer {
+    height: 100px;
+    background-color: var(--scenebg);
+
+}
+
+footer .mylinks,
+.mylinksi {
+    margin: auto;
+    width: 80vw;
+    height: 100%;
+    text-align: center;
+    padding: 30px 0px;
+    box-sizing: border-box;
+
+
+}
+
+.mylinks a {
+    padding: 0 5vw;
+    text-decoration: none;
+    color: var(--heading);
+}
+
+.mylinks a:hover {
+    color: var(--text);
+}
+
+.mylinksi a {
+    padding: 0 5vw;
+    text-decoration: none;
+    color: var(--heading);
+}
+
+.mylinksi,
+a:hover {
+    color: var(--text);
+}
+
+hr {
+    margin: 100px auto 100px;
+    padding: 0;
+    border: 10px dotted var(--scenebg);
+    border-bottom: none;
+    width: 4%;
+
+}
+
+.contact1 {
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 150px 0px 0px 0px;
+    box-sizing: border-box;
+}
+
+.contact2 {
+    height: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 25px 0px 0px 0px;
+    box-sizing: border-box;
+}
+
+.contact2 .submit {
+    color: var(--scenebg);
+    font-weight: 1000;
+    text-transform: uppercase;
+    border: var(--scenebg) 2px solid;
+    margin: 30px auto;
+    padding: 10px 20px;
+}
+
+.contact2 .submit:hover {
+    background-color: var(--scenebg);
+    color: var(--heading);
+    border: var(--heading) 1px solid;
+    cursor: pointer;
+
+}
+
+.contact2 form,
+textarea,
+input,
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.alist {
+    width: 400px;
+    height: auto;
+    margin: auto;
+    line-height: 3;
+    font-size: 1.2em;
+    padding-left: 100px;
+}
+
+.alist li {
+    list-style-position: inside;
+}
+
+@media screen and (max-width:800px) {
+    .mylinks a {
+        text-decoration: none;
+        font-size: 1.2em;
+        line-height: 1.8;
+        display: block;
+        padding-bottom: 10px;
+    }
+
+    .mylinksi a {
+        padding: 25px 0;
+        text-decoration: none;
+        font-size: 1.2em;
+        line-height: 1.8;
+        display: block;
+    }
+
+    footer {
+        height: 250px;
+        padding: 10px 0px;
+    }
+
+    .mytable {
+        width: 500px;
+        height: 600px;
+    }
+
+    header {
+        text-align: center;
+        width: auto;
+        height: 400px;
+        margin: 0px auto 150px;
+    }
+
+    .scene {
+        height: 300px;
+        width: 300px;
+        border-radius: 100%;
+        position: relative;
+        margin: auto;
+    }
+
+    .hills img {
+        height: 120px;
+    }
+
+    .hills {
+        position: absolute;
+        bottom: 90px;
+        left: 25px;
+    }
+
+    .cloud1 img {
+        height: 50px;
+    }
+
+    .cloud1 {
+        position: absolute;
+        left: 10px;
+    }
+
+    .cloud2 img {
+        height: 80px;
+    }
+
+    .cloud2 {
+        position: absolute;
+        right: 1px;
+        top: 1px;
+    }
+
+    .hobbies {
+        width: 300px;
+        height: 200px;
+    }
+
+    .intro {
+        width: 500px;
+        height: 400px;
+        text-align: center;
+        display: block;
+    }
+
+    .intro img {
+        float: none;
+        margin: auto;
+    }
+
+    .intro p {
+        width: 400px;
+        margin: auto;
+    }
+
+}
