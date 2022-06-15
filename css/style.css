@@ -6,6 +6,7 @@ body {
     line-height: 1.8;
     box-sizing: border-box;
     color: var(--text);
+    font-family: 'Open Sans', sans-serif;
 }
 
 :root {
@@ -14,12 +15,16 @@ body {
     --scenebg: #062C30;
     --heading: #E2D784;
 }
+.maintitle{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4em;
+}
 
 /* Scene starts here. */
 header {
     text-align: center;
     width: 80vw;
-    height: 800px;
+    height: 900px;
     margin: auto;
 }
 
@@ -29,7 +34,7 @@ header {
     width: 600px;
     border-radius: 100%;
     position: relative;
-    margin: auto;
+    margin: 100px auto;
 }
 
 h2 {
@@ -130,8 +135,7 @@ footer .mylinks,
     text-align: center;
     padding: 30px 0px;
     box-sizing: border-box;
-
-
+    font-size: 1.2em;
 }
 
 .mylinks a {
@@ -170,14 +174,15 @@ hr {
     text-align: center;
     padding: 150px 0px 0px 0px;
     box-sizing: border-box;
+    font-size: 1.2em;
 }
 
 .contact2 {
     height: 600px;
     margin: auto;
     text-align: center;
-    padding: 25px 0px 0px 0px;
     box-sizing: border-box;
+    font-size: 1.2em;
 }
 
 .contact2 .submit {
@@ -202,28 +207,29 @@ textarea,
 input,
 button {
     padding: 10px 20px;
-    margin: 10px;
+    margin: 20px;
     border-radius: 5px;
 }
-
 .alist {
-    width: 400px;
-    height: auto;
+    width: 500px;
     margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+.alist ul {
     line-height: 3;
     font-size: 1.2em;
-    padding-left: 100px;
+    margin-right: 70px;
 }
 
 .alist li {
     list-style-position: inside;
 }
 
-@media screen and (max-width:800px) {
+
+@media screen and (max-width:1000px) {
     .mylinks a {
         text-decoration: none;
-        font-size: 1.2em;
-        line-height: 1.8;
         display: block;
         padding-bottom: 10px;
     }
@@ -231,8 +237,6 @@ button {
     .mylinksi a {
         padding: 25px 0;
         text-decoration: none;
-        font-size: 1.2em;
-        line-height: 1.8;
         display: block;
     }
 
@@ -249,8 +253,7 @@ button {
     header {
         text-align: center;
         width: auto;
-        height: 400px;
-        margin: 0px auto 150px;
+        height: 540px;
     }
 
     .scene {
@@ -297,7 +300,7 @@ button {
 
     .intro {
         width: 500px;
-        height: 400px;
+        height: 500px;
         text-align: center;
         display: block;
     }
